@@ -20,7 +20,7 @@ public class Sieve {
 		
 		// Start the sieve
 		boolean[] notPrime = new boolean[n-1];
-		for (int j = 0; j < n-1; j++)
+		for (int j = 0; j < Math.pow(n-1, 0.5); j++)
 		{
 			for (int k = j+1; k < n-1; k++)
 			{
